@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "check Menu of javabykiran.com",
+        "description": "",
+        "id": "site;check-menu-of-javabykiran.com",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 144102928,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open a browser",
+            "match": {
+              "location": "JBKsteps.open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21049,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#When I open a jbksite"
+              }
+            ],
+            "line": 8,
+            "name": "I open a jbksite",
+            "match": {
+              "location": "JBKsteps.i_open_a_jbksite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19911,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "career menu should appears",
+            "match": {
+              "location": "JBKsteps.career_menu_should_appears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "site",
+    "description": "As a user \r\nI want to open a website\r\nso that i can check menu",
+    "id": "site",
+    "keyword": "Feature",
+    "uri": "cucumber/jbksite.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-facebook-login-smoke-scenario;test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46649,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Firefox and start application",
+            "match": {
+              "location": "newJBK.open_Firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1764692,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"kiran@gmail.com\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiran@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "123456",
+                  "offset": 37
+                }
+              ],
+              "location": "newJBK.i_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22187,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user able to login successfully",
+            "match": {
+              "location": "newJBK.user_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Facebook login smoke scenario",
+    "description": "",
+    "id": "test-facebook-login-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "cucumber/newJBK.feature"
+  }
+]
